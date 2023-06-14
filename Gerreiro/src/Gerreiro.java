@@ -12,13 +12,13 @@ public class Gerreiro {
         Random random = new Random(); // Importa o Random
 
         this.nome = nome;
-        this.dano = 10 + random.nextInt(30);
-        this.vida = 100 + random.nextInt(70);
-        this.defesa = 5 + random.nextInt(15);
-        this.velocidade = 10 + random.nextInt(10);
+        this.dano = 20 + random.nextInt(31);
+        this.vida = 100 + random.nextInt(71);
+        this.defesa = 5 + random.nextInt(16);
+        this.velocidade = 10 + random.nextInt(11);
     }
 
-    // GETTERS ------
+    // GETTERS =============================================================
     public String getNome() {
         return nome;
     }
@@ -47,5 +47,12 @@ public class Gerreiro {
         System.out.println("Defesa: " +         this.defesa);
         System.out.println("Velocidade: " + this.velocidade);
     }
+
+    // SETTERS ===============================================================
+    public void setVida(int vida) {
+        this.vida = vida;
+    }
+
+    
     
 }
