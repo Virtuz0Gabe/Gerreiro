@@ -1,0 +1,9 @@
+
+Ações do jogo:
+* Ataque: causa o dano do ataque menos o tanto de defesa
+* Defesa: gera um número aleatório que será multiplicado a defesa
+* Esquivar: gera um número aleátorio que é somado a velocidade, 
+se a velocidade atingir uma quantidade minima a esquiva é feita com sucesso
+caso contrário o ataque é recebido
+
+* Mostra todos os Status do personagem atual
